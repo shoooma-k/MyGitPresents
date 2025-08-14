@@ -26,11 +26,13 @@
 
   const loginPage = document.getElementById('login-page');
   const welcome = document.getElementById('welcome');
+  const contentList = document.getElementById('contentList');
   const comments = document.getElementById('comments');
   const bye = document.getElementById('bye');
 
   loginPage.hidden = false;
   welcome.hidden = true;
+  contentList.hidden = true;
   comments.hidden = true;
   bye.hidden = true;
 
@@ -72,6 +74,7 @@
 
       loginPage.hidden = true;
       welcome.hidden = false;
+      contentList.hidden = false;
       comments.hidden = true;
 
       const entry = { id: clickedId, time: new Date().toLocaleString()};
