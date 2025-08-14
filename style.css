@@ -3,18 +3,19 @@
 body {
   margin: 0;
   padding: 16px 0;
+  width: 400px;
 }
 
 section#login-page {
   background: #fff;
-  margin: 200px auto;
-  width: 430px;
+  margin: 100px auto;
+  width: 330px;
   padding: 16px;
 }
 
 #login-page #members {
   background: rgb(190, 190, 255);
-  width: 380px;
+  width: 280px;
   margin: 0 auto;
   padding: 24px 16px 8px;
 }
